@@ -8,7 +8,7 @@
     "node": ">=10"
   },
   "name": "babel-preset-modern-browser-extension",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Babel preset used for creating browser extensions. Supports React and TypeScript.",
   "main": "module.js",
   "author": {
