@@ -2,7 +2,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/extension-create/babel-preset-modern-browser-extension.git"
+    "url": "https://github.com/cezaraugusto/babel-preset-modern-browser-extension.git"
   },
   "engines": {
     "node": ">=10"
@@ -29,7 +29,6 @@
     "babel",
     "preset",
     "plugin",
-    "extension-create",
     "browser",
     "extension"
   ],
