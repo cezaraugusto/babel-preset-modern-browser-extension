@@ -11,20 +11,15 @@
   "version": "0.1.0",
   "description": "Babel preset used for creating browser extensions. Supports React and TypeScript.",
   "main": "module.js",
+  "types": "module.d.ts",
   "author": {
     "name": "Cezar Augusto",
     "email": "boss@cezaraugusto.net",
-    "url": "https://cezaraugusto.net"
+    "url": "https://cezaraugusto.com"
   },
   "scripts": {
     "test": "echo \"Nothing to test\" && exit 0"
   },
-  "files": [
-    "module.js",
-    "overrides.js",
-    "plugins.js",
-    "presets.js"
-  ],
   "keywords": [
     "babel",
     "preset",

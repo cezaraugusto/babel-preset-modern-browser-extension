@@ -84,7 +84,7 @@ In your `.babelrc` (or any other Babel config file) file, add:
 
 ```json5
 {
-  "presets": [["modern-extensions", {"debug": false}]]
+  presets: [['modern-extensions', {debug: false}]]
 }
 ```
 
@@ -96,7 +96,7 @@ In your `.babelrc` (or any other Babel config file) file, add:
 
 ```json5
 {
-  "presets": [["modern-extensions", {"typescript": false}]]
+  presets: [['modern-extensions', {typescript: false}]]
 }
 ```
 
