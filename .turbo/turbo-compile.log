@@ -1,0 +1,12 @@
+
+[2K[1G[2m$ tsup-node ./module.ts --format cjs --dts --target=node18 --minify[22m
+[34mCLI[39m Building entry: ./module.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.0.2
+[34mCLI[39m Target: node18
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/module.js [22m[32m751.00 B[39m
+[32mCJS[39m ⚡️ Build success in 52ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 4015ms
+[32mDTS[39m [1mdist/module.d.ts [22m[32m166.00 B[39m
