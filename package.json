@@ -12,6 +12,9 @@
   "description": "Babel preset used for creating browser extensions. Supports React and TypeScript.",
   "main": "./dist/module.js",
   "types": "./dist/module.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": {
     "name": "Cezar Augusto",
     "email": "boss@cezaraugusto.net",
