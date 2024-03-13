@@ -3,6 +3,8 @@ export default function overrides(opts: any) {
 
   return {
     test: /\.tsx?$/,
-    plugins: [['@babel/plugin-proposal-decorators', {legacy: true}]]
+    plugins: [
+      [require.resolve('@babel/plugin-proposal-decorators'), {legacy: true}]
+    ]
   }
 }

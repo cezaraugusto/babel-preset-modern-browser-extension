@@ -4,3 +4,5 @@ yarn-lock.json
 yarn-error.log
 yarn.lock
 3_*
+.turbo/*
+dist/*
