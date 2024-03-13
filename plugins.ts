@@ -1,19 +1,5 @@
 export default function plugins(opts: any) {
   return [
-    // A plugin that enables the re-use of Babel's injected helper code to save on codesize.
-    // See https://babeljs.io/docs/en/babel-plugin-transform-runtime
-    // require.resolve('@babel/plugin-transform-runtime'),
-    // [
-    //   {
-    //     // Assume that all polyfillable APIs will be provided by the user.
-    //     // Otherwise the corejs option needs to be specified.
-    //     absoluteRuntime: false,
-    //     corejs: false,
-    //     helpers: true,
-    //     regenerator: true
-    //   }
-    // ],
-
     // Add support for legacy decorators.
     // See https://babeljs.io/docs/en/babel-plugin-proposal-decorators
     [require.resolve('@babel/plugin-proposal-decorators'), {version: 'legacy'}],
