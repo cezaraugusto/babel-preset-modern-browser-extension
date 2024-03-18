@@ -26,11 +26,9 @@ In your `.babelrc` (or any other Babel config file) file, add:
   "@babel/plugin-proposal-class-properties"
   "@babel/plugin-proposal-decorators"
   "@babel/plugin-syntax-dynamic-import"
-  "@babel/plugin-transform-runtime"
   "@babel/preset-env"
   "@babel/preset-react"
   "@babel/preset-typescript"
-  "babel-plugin-optimize-hook-destructuring"
   "babel-plugin-react-require"
   "babel-plugin-transform-react-remove-prop-types"
 }
