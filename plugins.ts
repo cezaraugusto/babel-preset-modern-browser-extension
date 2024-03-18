@@ -4,10 +4,6 @@ export default function plugins(opts: any) {
     // See https://babeljs.io/docs/en/babel-plugin-proposal-decorators
     [require.resolve('@babel/plugin-proposal-decorators'), {version: 'legacy'}],
 
-    // Babel plugin for transforming class properties
-    // See https://babeljs.io/docs/en/babel-plugin-proposal-class-properties
-    require.resolve('@babel/plugin-proposal-class-properties'),
-
     // Babel plugin that adds React import declaration if file contains JSX tags.
     // See https://www.npmjs.com/package/babel-plugin-react-require
     require.resolve('babel-plugin-react-require'),

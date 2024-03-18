@@ -23,7 +23,6 @@ In your `.babelrc` (or any other Babel config file) file, add:
 
 ```js
 "dependencies": {
-  "@babel/plugin-proposal-class-properties"
   "@babel/plugin-proposal-decorators"
   "@babel/plugin-syntax-dynamic-import"
   "@babel/preset-env"
